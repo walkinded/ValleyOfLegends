@@ -1606,6 +1606,14 @@ background-image: url(../img/ar3_1.png);
 	padding: 13px 23px;
 	border-radius: 0 6px 6px 0;
 }
+.item-catalog_top-seller::after {
+	content: "Хит продаж";
+	background: #fcc741;
+}
+.item-catalog_promo::after {
+	content: "Акция";
+	background: #e64c16;
+}
 .item-catalog__compare {
 	position: absolute;
 	top: 21px;
@@ -1619,14 +1627,6 @@ background-image: url(../img/ar3_1.png);
 }
 .item-catalog__compare:hover i {
 	opacity: .4;
-}
-.item-catalog_top-seller::after {
-	content: "Хит продаж";
-	background: #fcc741;
-}
-.item-catalog_promo::after {
-	content: "Акция";
-	background: #e64c16;
 }
 .title-page_upper {
 	position: relative;
